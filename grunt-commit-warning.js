@@ -1,0 +1,31 @@
+'use strict';
+
+module.exports = function(grunt) {
+    grunt.log.writeln('');
+    grunt.log.writeln('                             ###############');
+    grunt.log.writeln('                         #######################');
+    grunt.log.writeln('                      #############################');
+    grunt.log.writeln('                    #################################');
+    grunt.log.writeln('                   ###########             ###########');
+    grunt.log.writeln('                  ########                    #########');
+    grunt.log.writeln('                .######.     #############      ########');
+    grunt.log.writeln('                ######    ##################     #######.');
+    grunt.log.writeln('               ################     #########    ,#######');
+    grunt.log.writeln('               ################     /########     #######');
+    grunt.log.writeln('              .################     #########    ########');
+    grunt.log.writeln('              #################     ########     #######’');
+    grunt.log.writeln('              (################     #####      #########');
+    grunt.log.writeln('               ################              ##########)');
+    grunt.log.writeln('               #######NINJA####         ###############');
+    grunt.log.writeln('               ######BRANCH####     ##################');
+    grunt.log.writeln('                ################   ##################');
+    grunt.log.writeln('                 ###################################');
+    grunt.log.writeln('                  ##############    ##############');
+    grunt.log.writeln('                   #############   ##############');
+    grunt.log.writeln('                     ##########################');
+    grunt.log.writeln('                       #####################');
+    grunt.log.writeln('                           ############’');
+    grunt.log.writeln('');
+    grunt.log.writeln('');
+    grunt.log.writeln('   PLEASE REMEMBER TO USE GRUNT BUILD AND TO ADD UNTRACKED FILES :)');
+};

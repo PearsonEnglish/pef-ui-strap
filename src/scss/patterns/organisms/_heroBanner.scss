@@ -1,0 +1,43 @@
+.hero-banner {
+  margin: 15px auto;
+
+  .row {
+    margin: 0;
+    background: $pe-hero-banner-bg;
+
+    .hero-banner-text {
+      padding: $pe-brand-xs-padding-vertical $pe-brand-xs-padding-horizontal;
+      text-align: center;
+
+      @media (min-width: $screen-sm-min) {
+        padding: $pe-brand-base-padding-vertical $pe-brand-base-padding-horizontal;
+      }
+
+      @media (min-width: $screen-md-min) {
+        text-align: left;
+      }
+
+      h1,
+      p {
+        color: $pe-brand-color-blue-midnight;
+      }
+
+      h1 {
+        margin-top: 0;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+
+    .hero-banner-img {
+      padding: 0;
+
+      img {
+        margin-left: auto;
+      }
+    }
+  }
+}

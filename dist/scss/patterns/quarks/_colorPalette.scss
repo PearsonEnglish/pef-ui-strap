@@ -1,0 +1,64 @@
+// color palette
+$pe-brand-color-white: #fff !default;
+$pe-brand-color-black: #000 !default;
+$pe-brand-color-blue: #007fa3 !default;
+$pe-brand-color-blue-midnight: #003057 !default;
+$pe-brand-color-blue-ice: #d4eae4 !default;
+$pe-brand-color-blue-ink: #005a70 !default;
+$pe-brand-color-turquoise-marine: #12b2a6 !default;
+$pe-brand-color-green-lime: #d2db0e !default;
+$pe-brand-color-green-grass: #008638 !default;
+$pe-brand-color-green-fresh: #84bd00 !default;
+$pe-brand-color-purple-royal: #9e007e !default;
+$pe-brand-color-pink-hot: #ea067e !default;
+$pe-brand-color-red-strawberry: #db0020 !default;
+$pe-brand-color-orange-juicy: #ea7600 !default;
+$pe-brand-color-yellow-sunshine: #ffb81c !default;
+$pe-brand-color-gray-graphite: #505759 !default;
+
+$pe-brand-color-red-light: #fff1f1 !default;
+$pe-brand-color-blue-light: #e5f2f7 !default;
+$pe-brand-color-blue-lighter: #f2f9fb !default;
+$pe-brand-color-gray-light: #f6f6f6 !default;
+$pe-brand-color-gray: #dbdbdb !default;
+$pe-brand-color-gray-dark: #858585 !default;
+$pe-brand-color-gray-darkest: #3c3935 !default;
+
+$pe-body-bg: #eee !default;
+$pe-breadcrumb-bg: #f4f4f5 !default;
+$pe-hero-banner-bg: $pe-brand-color-blue-ice !default;
+$pe-footer-bg: $pe-brand-color-blue-midnight !default;
+$pe-header-bg: $pe-brand-color-white !default;
+
+// create backgrounds classes for demo site
+$color-map: (
+  pe-brand-color-white: $pe-brand-color-white,
+  pe-brand-color-black: $pe-brand-color-black,
+  pe-brand-color-blue: $pe-brand-color-blue,
+  pe-brand-color-blue-midnight: $pe-brand-color-blue-midnight,
+  pe-brand-color-blue-ice: $pe-brand-color-blue-ice,
+  pe-brand-color-blue-ink: $pe-brand-color-blue-ink,
+  pe-brand-color-turquoise-marine: $pe-brand-color-turquoise-marine,
+  pe-brand-color-green-lime: $pe-brand-color-green-lime,
+  pe-brand-color-green-grass: $pe-brand-color-green-grass,
+  pe-brand-color-green-fresh: $pe-brand-color-green-fresh,
+  pe-brand-color-purple-royal: $pe-brand-color-purple-royal,
+  pe-brand-color-pink-hot: $pe-brand-color-pink-hot,
+  pe-brand-color-red-strawberry: $pe-brand-color-red-strawberry,
+  pe-brand-color-orange-juicy: $pe-brand-color-orange-juicy,
+  pe-brand-color-yellow-sunshine: $pe-brand-color-yellow-sunshine,
+  pe-brand-color-gray-graphite: $pe-brand-color-gray-graphite,
+  pe-brand-color-red-light: $pe-brand-color-red-light,
+  pe-brand-color-blue-light: $pe-brand-color-blue-light,
+  pe-brand-color-blue-lighter: $pe-brand-color-blue-lighter,
+  pe-brand-color-gray-light: $pe-brand-color-gray-light,
+  pe-brand-color-gray: $pe-brand-color-gray,
+  pe-brand-color-gray-dark: $pe-brand-color-gray-dark,
+  pe-brand-color-gray-darkest: $pe-brand-color-gray-darkest
+);
+
+@each $status, $color in $color-map {
+  .#{$status}-bg {
+    background: $color;
+  }
+}

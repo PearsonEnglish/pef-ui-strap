@@ -1,0 +1,35 @@
+.pagination {
+  @mixin pagination-border-radius($border-radius) {
+    > li {
+      &.active {
+        &:nth-child(2) {
+          a {
+            @include border-left-radius($border-radius);
+          }
+        }
+
+        &:nth-last-child(2) {
+          a {
+            @include border-right-radius($border-radius);
+          }
+        }
+      }
+    }
+  }
+
+  > li {
+    &.disabled {
+      display: none;
+    }
+  }
+
+  @include pagination-border-radius($border-radius-base);
+
+  &.pagination-lg {
+    @include pagination-border-radius($border-radius-large);
+  }
+
+  &.pagination-sm {
+    @include pagination-border-radius($border-radius-small);
+  }
+}

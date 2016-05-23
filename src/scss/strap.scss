@@ -1,0 +1,18 @@
+// Define Pearson mixins
+@import 'mixins/mixins';
+
+// Define Pearson variables
+@import 'patterns/quarks';
+
+// Override Bootstrap and Font Awesome variables
+@import 'overrides/overrides';
+
+// Import Bootstrap and Font Awesome patterns
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../../node_modules/font-awesome/scss/font-awesome';
+
+// Define Pearson patterns
+@import 'patterns/atoms';
+@import 'patterns/molecules';
+@import 'patterns/organisms';
+@import 'patterns/templates';

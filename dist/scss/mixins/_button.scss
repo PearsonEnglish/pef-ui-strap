@@ -1,0 +1,14 @@
+@mixin buttons-shadow($box-shadow, $outline) {
+  &,
+  &.active,
+  &.active.focus,
+  &.active:focus,
+  &:active,
+  &.focus,
+  &:active.focus,
+  &:active:focus,
+  &:focus {
+    outline: $outline;
+    box-shadow: $box-shadow;
+  }
+}

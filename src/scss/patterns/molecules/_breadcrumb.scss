@@ -1,0 +1,22 @@
+.breadcrumb-container {
+  height: 42px;
+  padding-top: 10px;
+  background: $pe-breadcrumb-bg;
+  color: $pe-brand-color-gray-darkest;
+  font-size: 14px;
+
+  .fa {
+    margin: 0;
+    padding: 0 13px;
+    font-size: 17px;
+  }
+
+  a {
+    color: $pe-brand-color-gray-darkest;
+
+    &:hover {
+      color: $pe-brand-color-blue;
+      text-decoration: none;
+    }
+  }
+}

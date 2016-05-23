@@ -1,0 +1,12 @@
+.badge {
+  margin: 5px 5px 5px 0;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: $pe-brand-font-weight-open-sans-normal;
+  cursor: pointer;
+
+  .fa {
+    margin-left: 10px;
+  }
+}

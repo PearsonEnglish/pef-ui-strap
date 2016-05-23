@@ -1,0 +1,18 @@
+.btn {
+  @include text-overflow;
+  @include buttons-shadow(none, none);
+
+  &.btn-lg {
+    font-size: 14px;
+    font-weight: $pe-brand-font-weight-open-sans-bold;
+  }
+
+  &.btn-link {
+    text-decoration: underline;
+  }
+
+  &.btn-no-padding {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

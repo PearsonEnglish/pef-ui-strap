@@ -1,0 +1,257 @@
+// footer style taken from pearson.com
+
+.site-footer {
+  $footer-border: 1px solid rgba(17, 178, 166, .4);
+
+  position: relative;
+  padding: 36px 0;
+  background: $pe-footer-bg;
+  width: 100%;
+  font-size: 12px;
+
+  &,
+  a {
+    color: $pe-brand-color-white;
+  }
+
+  ul {
+    list-style: none;
+    line-height: 2;
+    font-weight: $pe-brand-font-weight-open-sans-light;
+  }
+
+  .footer {
+    .container {
+      max-width: 1148px;
+    }
+
+    .footer-container {
+      padding-bottom: 30px;
+
+      .footer-header {
+        margin: 0;
+        font-weight: $pe-brand-font-weight-open-sans-light;
+        text-transform: uppercase;
+        font-family: $font-family-sans-serif;
+      }
+
+      .footer-links {
+        margin-top: 20px;
+        padding: 0;
+      }
+    }
+  }
+
+  .legal-notification,
+  .cookie-notification {
+    padding: 0 10px;
+
+    .container {
+      max-width: 1180px;
+      width: auto;
+      padding: 0;
+    }
+  }
+
+  .cookie-notification {
+    a {
+      color: $pe-brand-color-green-lime;
+    }
+  }
+
+  .legal-notification {
+    .container {
+      margin: 0 -10px;
+
+      .legal-notification-links {
+        padding: 0 20px;
+        border: $footer-border;
+        border-width: 1px 0;
+        display: flex;
+
+        li {
+          flex: 1;
+          text-align: center;
+          display: inline-block;
+          border-left: $footer-border;
+
+          a {
+            display: block;
+            padding: 20px;
+            font-weight: $pe-brand-font-weight-open-sans-normal;
+            line-height: 1;
+          }
+
+          &:first-child {
+            border: 0;
+          }
+
+          &:first-child a {
+            padding-left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  @media(min-width: 992px) {
+    &:after {
+      content: ' ';
+      display: table;
+      clear: both;
+    }
+
+    .legal-notification,
+    .cookie-notification {
+      float: left;
+      width: calc(50% - 10px);
+    }
+
+    .legal-notification {
+      padding-left: 0;
+      margin-left: 20px;
+
+      .container {
+        .legal-notification-links {
+          border-bottom: 0;
+        }
+      }
+    }
+
+    .cookie-notification {
+      border-top: $footer-border;
+      margin: 0;
+      padding: 20px 20px 20px 0;
+      margin-right: -20px;
+    }
+  }
+
+  @media(min-width: 767px) and (max-width: 992px) {
+    .footer {
+      .col-sm-3 {
+        width: 33.33333333%;
+      }
+
+      .visible-sm-block {
+        display: none !important;
+      }
+    }
+
+    .footer-container:nth-child(n+4) {
+      border-top: $footer-border;
+      padding-top: 20px;
+    }
+
+    div.footer-container:nth-of-type(4n) {
+      clear: left;
+    }
+  }
+
+  @media(min-width: 480px) and (max-width: 766px) {
+    .footer .col-xs-12 {
+      width: 50%;
+    }
+
+    .footer-container {
+      padding: 20px;
+
+      &:nth-child(n+3) {
+        border-top: $footer-border;
+      }
+    }
+
+    div.footer-container:nth-of-type(3n) {
+      clear: left;
+    }
+  }
+
+  @media(max-width: 640px) {
+    .footer .row {
+      margin: 10 -20px;
+    }
+
+    .footer-container {
+      &:nth-child(odd) {
+        padding-left: 20px;
+      }
+
+      &:nth-child(even),
+      &:nth-child(2n+5) {
+        padding-right: 20px;
+        padding-left: 10px;
+      }
+
+      &:nth-child(2n+6) {
+        padding-left: 20px;
+        padding-right: 10px;
+      }
+    }
+  }
+
+  @media(max-width: 480px) {
+    .footer {
+      padding-bottom: 0;
+
+      .footer-container {
+        border-bottom: $footer-border;
+        padding: 20px;
+        margin: 0;
+
+        .footer-header {
+          text-align: center;
+          margin: 0;
+          cursor: pointer;
+        }
+
+        .footer-links {
+          margin: 0;
+
+          li {
+            a {
+              padding: 5px;
+              display: block;
+              text-align: center;
+            }
+          }
+        }
+
+        &:last-child {
+          border: 0;
+        }
+      }
+    }
+
+    .legal-notification {
+      .container {
+        .legal-notification-links {
+          flex-wrap: wrap;
+          padding: 0;
+
+          li {
+            border: 0;
+            text-align: center;
+            width: 100%;
+            flex: 1 0 50%;
+
+            a {
+              padding-left: 0;
+              padding-right: 0;
+            }
+
+            &:nth-child(odd) {
+              border-left: 0;
+            }
+
+            &:nth-child(even) {
+              border-left: $footer-border;
+            }
+
+            &:nth-child(n+3) {
+              border-top: $footer-border;
+            }
+          }
+        }
+      }
+    }
+  }
+}
