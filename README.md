@@ -1,5 +1,5 @@
 # PEF UI Strap
-------
+
 PEF UI Strap is a project that provides set of styles definitions for Pearson applications.
 ##### The project use:
 * [Bootstrap Sass 3.3](https://github.com/twbs/bootstrap-sass)
