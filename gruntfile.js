@@ -72,7 +72,6 @@ module.exports = function(grunt) {
             },
             target: [
                 'src/scss/**/*.scss',
-                '!src/scss/patterns/molecules/_loader.scss',
                 '!src/scss/patterns/organisms/_footer.scss'
             ]
         },

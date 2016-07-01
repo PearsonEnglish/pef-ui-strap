@@ -13,7 +13,7 @@ To build styles from `scss` files use `grunt build`. It will create `dist` folde
 
 Write CSS rules without vendor prefixes - [autoprefixer](https://github.com/postcss/autoprefixer) is used.
 
-TO check sass codestyle with `sass-lint` use `grunt check`.
+To check sass codestyle with `sass-lint` use `grunt check`.
 
 ### Examples
 ##### With scss:
@@ -42,3 +42,12 @@ TO check sass codestyle with `sass-lint` use `grunt check`.
 ```
 
 You can also use `css` files. Remember to copy `assets` into your application.
+
+### Contributing
+##### Please follow these rules:
+* all changes should be done in `src` folder - use `grunt build` to modify `dist` folder
+* all changes and new features should be accepted by design team
+* try to keep backward compatibility
+* update CHANGELOG.md
+* avoid sass-lint warnings/errors
+* use semantic versioning
