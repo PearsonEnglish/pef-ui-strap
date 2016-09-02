@@ -1,5 +1,5 @@
 ## 0.2.0 (2016-09-02)
-_`._
+_New features and UX consistency._
 ### Features
 * Import `Open Sans` font from `css/scss` file
 * Add 4 new colors: `$pe-brand-color-green-tealish`, `$pe-brand-color-blue-dark`, `$pe-brand-color-blue-grey-light` and `$pe-brand-color-blue-grey`
