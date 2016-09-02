@@ -1,8 +1,5 @@
 // fonts
 $font-family-sans-serif: 'Open Sans', sans-serif !default;
-$font-family-serif: 'Playfair Display', serif !default;
-$font-family-monospace: Menlo, Monaco, Consolas, 'Courier New', monospace !default;
-$font-family-base: $font-family-sans-serif !default;
 
 $font-size-base: 13px !default;
 $font-size-large: 16px !default;
@@ -14,9 +11,12 @@ $font-size-h4: 20px !default;
 $font-size-h5: 16px !default;
 
 
+// sizes
+$modal-md: 460px !default;
+
 // headings
-$headings-font-family: $font-family-serif !default;
-$headings-font-weight: bold !default;
+$headings-font-family: $font-family-sans-serif !default;
+$headings-font-weight: $pe-brand-font-weight-open-sans-bold !default;
 $headings-color: $pe-brand-color-blue !default;
 
 
@@ -28,25 +28,29 @@ $brand-warning: $pe-brand-color-orange-juicy !default;
 $brand-danger: $pe-brand-color-red-strawberry !default;
 
 $body-bg: $pe-body-bg !default;
-$text-muted: $pe-brand-color-gray-dark !default;
+$text-muted: $pe-brand-color-gray-graphite !default;
 $table-bg-active: $pe-brand-color-blue-light;
 $state-info-bg: $pe-brand-color-blue-light;
 $gray-lighter: $pe-brand-color-gray-light !default;
 $link-color: $pe-brand-color-blue !default;
 
+$btn-default-bg: transparent !default;
 $btn-default-color: $pe-brand-color-blue !default;
 $btn-default-border: $pe-brand-color-blue !default;
+$btn-primary-border: $pe-brand-color-blue !default;
+
+
+// popover
+$popover-max-width: 360px !default;
+$popover-arrow-width: 20px !default;
 
 
 // paddings
 $padding-base-vertical: 10px !default;
-$padding-base-horizontal: 12px !default;
+$padding-base-horizontal: 18px !default;
 
-$padding-large-vertical: 12px !default;
-$padding-large-horizontal: 30px !default;
-
-$modal-inner-padding: 15px 30px !default;
-$modal-title-padding: 15px 30px !default;
+$modal-inner-padding: 12px 24px !default;
+$modal-title-padding: 22px 24px !default;
 
 $table-cell-padding: 20px !default;
 

@@ -16,9 +16,13 @@ $pe-brand-color-orange-juicy: #ea7600 !default;
 $pe-brand-color-yellow-sunshine: #ffb81c !default;
 $pe-brand-color-gray-graphite: #505759 !default;
 
+$pe-brand-color-green-tealish: #22b6b4 !default;
 $pe-brand-color-red-light: #fff1f1 !default;
 $pe-brand-color-blue-light: #e5f2f7 !default;
 $pe-brand-color-blue-lighter: #f2f9fb !default;
+$pe-brand-color-blue-dark: #daebf0 !default;
+$pe-brand-color-blue-gray-light: #f2f8f6 !default;
+$pe-brand-color-blue-gray: #d3eae3 !default;
 $pe-brand-color-gray-light: #f6f6f6 !default;
 $pe-brand-color-gray: #dbdbdb !default;
 $pe-brand-color-gray-dark: #858585 !default;
@@ -48,9 +52,13 @@ $color-map: (
   pe-brand-color-orange-juicy: $pe-brand-color-orange-juicy,
   pe-brand-color-yellow-sunshine: $pe-brand-color-yellow-sunshine,
   pe-brand-color-gray-graphite: $pe-brand-color-gray-graphite,
+  pe-brand-color-green-tealish: $pe-brand-color-green-tealish,
   pe-brand-color-red-light: $pe-brand-color-red-light,
   pe-brand-color-blue-light: $pe-brand-color-blue-light,
   pe-brand-color-blue-lighter: $pe-brand-color-blue-lighter,
+  pe-brand-color-blue-dark: $pe-brand-color-blue-dark,
+  pe-brand-color-blue-gray-light: $pe-brand-color-blue-gray-light,
+  pe-brand-color-blue-gray: $pe-brand-color-blue-gray,
   pe-brand-color-gray-light: $pe-brand-color-gray-light,
   pe-brand-color-gray: $pe-brand-color-gray,
   pe-brand-color-gray-dark: $pe-brand-color-gray-dark,

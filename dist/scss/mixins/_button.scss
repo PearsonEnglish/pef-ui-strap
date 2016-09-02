@@ -12,3 +12,12 @@
     box-shadow: $box-shadow;
   }
 }
+
+@mixin buttons-focus($border-color, $background-color) {
+  &:hover,
+  &:focus,
+  &:active {
+    border-color: $border-color;
+    background-color: $background-color;
+  }
+}

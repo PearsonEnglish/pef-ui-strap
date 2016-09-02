@@ -2,17 +2,44 @@
   @include text-overflow;
   @include buttons-shadow(none, none);
 
-  &.btn-lg {
-    font-size: 14px;
+  &.btn-primary {
+    @include buttons-focus($btn-primary-border, $btn-primary-bg);
     font-weight: $pe-brand-font-weight-open-sans-bold;
+  }
+
+  &.btn-default {
+    @include buttons-focus($btn-default-border, $btn-default-bg);
+    font-weight: $pe-brand-font-weight-open-sans-normal;
+  }
+
+  &.btn-secondary {
+    border-color: $pe-brand-color-gray;
+    background-color: transparent;
+    color: $pe-brand-color-gray-graphite;
+    font-weight: $pe-brand-font-weight-open-sans-normal;
   }
 
   &.btn-link {
     text-decoration: underline;
   }
 
+  &.btn-no-padding-vertical {
+    @include padding-vertical;
+  }
+
+  &.btn-no-padding-horizontal {
+    @include padding-horizontal;
+  }
+
   &.btn-no-padding {
-    padding-right: 0;
-    padding-left: 0;
+    padding: 0;
+  }
+
+  &.btn-left {
+    text-align: left;
+  }
+
+  &.btn-right {
+    text-align: right;
   }
 }

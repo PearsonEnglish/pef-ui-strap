@@ -4,9 +4,9 @@
   $footer-border: 1px solid rgba(17, 178, 166, .4);
 
   position: relative;
+  width: 100%;
   padding: 36px 0;
   background: $pe-footer-bg;
-  width: 100%;
   font-size: 12px;
 
   &,
@@ -15,9 +15,9 @@
   }
 
   ul {
-    list-style: none;
-    line-height: 2;
     font-weight: $pe-brand-font-weight-open-sans-light;
+    line-height: 2;
+    list-style: none;
   }
 
   .footer {
@@ -30,9 +30,9 @@
 
       .footer-header {
         margin: 0;
+        font-family: $font-family-sans-serif;
         font-weight: $pe-brand-font-weight-open-sans-light;
         text-transform: uppercase;
-        font-family: $font-family-sans-serif;
       }
 
       .footer-links {
@@ -47,8 +47,8 @@
     padding: 0 10px;
 
     .container {
-      max-width: 1180px;
       width: auto;
+      max-width: 1180px;
       padding: 0;
     }
   }
@@ -64,16 +64,16 @@
       margin: 0 -10px;
 
       .legal-notification-links {
+        display: flex;
         padding: 0 20px;
         border: $footer-border;
         border-width: 1px 0;
-        display: flex;
 
         li {
-          flex: 1;
-          text-align: center;
           display: inline-block;
+          flex: 1;
           border-left: $footer-border;
+          text-align: center;
 
           a {
             display: block;
@@ -96,20 +96,20 @@
 
   @media(min-width: 992px) {
     &:after {
-      content: ' ';
       display: table;
       clear: both;
+      content: ' ';
     }
 
     .legal-notification,
     .cookie-notification {
-      float: left;
       width: calc(50% - 10px);
+      float: left;
     }
 
     .legal-notification {
-      padding-left: 0;
       margin-left: 20px;
+      padding-left: 0;
 
       .container {
         .legal-notification-links {
@@ -119,10 +119,10 @@
     }
 
     .cookie-notification {
-      border-top: $footer-border;
       margin: 0;
-      padding: 20px 20px 20px 0;
       margin-right: -20px;
+      padding: 20px 20px 20px 0;
+      border-top: $footer-border;
     }
   }
 
@@ -138,8 +138,8 @@
     }
 
     .footer-container:nth-child(n+4) {
-      border-top: $footer-border;
       padding-top: 20px;
+      border-top: $footer-border;
     }
 
     div.footer-container:nth-of-type(4n) {
@@ -182,8 +182,8 @@
       }
 
       &:nth-child(2n+6) {
-        padding-left: 20px;
         padding-right: 10px;
+        padding-left: 20px;
       }
     }
   }
@@ -193,13 +193,13 @@
       padding-bottom: 0;
 
       .footer-container {
-        border-bottom: $footer-border;
-        padding: 20px;
         margin: 0;
+        padding: 20px;
+        border-bottom: $footer-border;
 
         .footer-header {
-          text-align: center;
           margin: 0;
+          text-align: center;
           cursor: pointer;
         }
 
@@ -208,8 +208,8 @@
 
           li {
             a {
-              padding: 5px;
               display: block;
+              padding: 5px;
               text-align: center;
             }
           }
@@ -228,14 +228,13 @@
           padding: 0;
 
           li {
+            flex: 1 0 50%;
+            width: 100%;
             border: 0;
             text-align: center;
-            width: 100%;
-            flex: 1 0 50%;
 
             a {
-              padding-left: 0;
-              padding-right: 0;
+              @include padding-horizontal;
             }
 
             &:nth-child(odd) {

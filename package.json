@@ -1,7 +1,7 @@
 {
   "name": "pef-ui-strap",
   "description": "PEF UI Strap",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "author": "Ninja Branch",
   "repository": {
     "type": "git",
@@ -16,11 +16,11 @@
     "ckeck": "grunt ckeck"
   },
   "dependencies": {
-    "bootstrap-sass": "^3.3.6",
-    "font-awesome": "^4.6.1"
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.6.3"
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.6",
+    "autoprefixer": "^6.4.0",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^1.0.0",

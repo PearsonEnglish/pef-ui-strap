@@ -1,10 +1,11 @@
-.modal-body {
-  padding-top: 0;
-  padding-bottom: 0;
-  overflow: hidden;
+.modal-dialog {
+  .modal-header {
+    .modal-title {
+      font-weight: $pe-brand-font-weight-open-sans-normal;
+    }
+  }
 
-  .container-fluid {
-    margin-right: -40px;
-    margin-left: -40px;
+  .modal-body {
+    overflow: hidden;
   }
 }

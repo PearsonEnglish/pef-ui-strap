@@ -1,12 +1,21 @@
 .badge {
-  margin: 5px 5px 5px 0;
-  padding: 8px 20px;
+  @include text-overflow;
+  position: relative;
+  max-width: 100%;
+  margin: 5px 5px 0 0;
+  padding: 6px 20px;
   border-radius: 50px;
+  background: $pe-brand-color-gray-dark;
   font-size: 12px;
   font-weight: $pe-brand-font-weight-open-sans-normal;
-  cursor: pointer;
 
-  .fa {
-    margin-left: 10px;
+  &.badge-close {
+    cursor: pointer;
+
+    &:after {
+      @include fa-icon;
+      margin-left: 8px;
+      content: $fa-var-close;
+    }
   }
 }
