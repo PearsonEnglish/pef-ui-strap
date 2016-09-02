@@ -18,6 +18,7 @@ _New features and UX consistency._
 * Set `$modal-md` to `460px`
 * Change `modal` padding
 * Set `$text-muted` color to `$pe-brand-color-gray-graphite`
+
 ------
 
 ## 0.1.2 (2016-07-01)
