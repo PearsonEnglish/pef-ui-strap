@@ -7,6 +7,7 @@ _New features and UX consistency._
 * Add `btn-secondary` and `btn-left` class
 * Add `popover` class
 * Upgrade  `autoprefixer`, `bootstrap-sass` and `font-awesome`
+
 ## BREAKING CHANGES
 * Increase `$padding-base-horizontal` from `12px` to `18px`
 * Remove `Playfair Display` font - `h1-h6` are `sans-serif` now
