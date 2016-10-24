@@ -41,7 +41,9 @@ To check sass codestyle with `sass-lint` use `grunt check`.
 [...]
 ```
 
-You can also use `css` files. Remember to copy `assets` into your application.
+You can also use `css` files.
+
+Remember to create task which copy `assets` into your application.
 
 ### Contributing
 ##### Please follow these rules:
