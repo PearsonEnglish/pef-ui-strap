@@ -1,3 +1,10 @@
+## 0.2.1 (2016-10-24)
+_Font import fix._
+### Bugfix
+* Fix google fonts import in Angular 2.0
+
+------
+
 ## 0.2.0 (2016-09-02)
 _New features and UX consistency._
 ### Features
